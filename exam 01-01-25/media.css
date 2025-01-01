@@ -1,0 +1,119 @@
+@media screen {max-width: 480px;}
+.a
+{
+    left: 20%;
+    font-size: 25px;
+}
+.b
+{
+    left: 13%;
+    font-size: 15px;
+}
+.gallery
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    top: 18%;
+    left: 15%;
+}
+.box1
+{
+    height: 200px;
+    width: 200px;
+    flex-wrap: wrap;
+}
+.box2
+{
+    height: 200px;
+    width: 200px;
+    flex-wrap: wrap;
+}
+.box3
+{
+    height: 200px;
+    width: 200px;
+    flex-wrap: wrap;
+}
+
+@media screen {max-width: 768px;}
+.a
+{
+    left: 20%;
+    font-size: 15px;
+}
+.b
+{
+    left: 15%;
+    font-size: 10px;
+    top: 15%;
+}
+.gallery
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    top: 20%;
+    left: 15%;
+}
+.box1
+{
+    height: 200px;
+    width: 200px;
+    flex-wrap: wrap;
+}
+.box2
+{
+    height: 200px;
+    width: 200px;
+    flex-wrap: wrap;
+}
+.box3
+{
+    height: 200px;
+    width: 200px;
+    flex-wrap: wrap;
+}
+p
+{
+    font-size: 10px;   
+}
+
+@media screen {max-width: 1920px;}
+.a
+{
+    left: 40%;
+    font-size: 25px;
+    top: 8%;
+}
+.b
+{
+    top: 13%;
+    left: 35%;
+    font-size: 20px;
+}
+.gallery
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 12%;
+    height: 450px;
+}
+.box1
+{
+    height: 300px;
+    width: 350px;
+}
+.box2
+{
+    height: 300px;
+    width: 350px;
+    left: 50%;
+}
+.box3
+{
+    height: 300px;
+    width: 350px;
+}
